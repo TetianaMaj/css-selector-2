@@ -1,1 +1,69 @@
-
+.lesson-four-task-one:link {
+    color: red;
+    background-color: yellow;
+}
+.title:hover {
+    background-color: green;
+}
+.link:visited {
+    color: yellow;
+}
+.link:link {
+    color: red;
+}
+.btn:active {
+    background-color: blue;
+}
+.btn:focus {
+    color: orange;
+    background-color: orange;
+}
+#target:target {
+    color: white;
+    background-color: green;
+}
+#target:checked {
+    color: white;
+    background-color: blue;
+}
+p:lang(uk) {
+color: blue;
+}
+.form-group:enabled {
+    color: red;
+    background-color: yellow;
+}
+.lesson-four-task-eleven:disabled {
+    background-color: yellow;
+}
+.lesson-four-task-twelve:read-write {
+    background-color: yellow;
+}
+.lesson-four-task-thirteen:read-only {
+    background-color: yellow;
+}
+.lesson-four-task-fourteen:valid {
+    color: green;
+}
+.lesson-four-task-fourteen:invalid {
+    color: red;
+}
+.lesson-four-task-fifteen:optional {
+    background-color: red;
+}
+.lesson-four-task-sixteen:out-of-range {
+    color: red;
+}
+.lesson-four-task-seventeen:in-range {
+    color: red;
+}
+.lesson-four-task-eighteen:placeholder-shown {
+    color: red;
+}
+.btn-group:focus-within {
+    color: white;
+    background-color: yellow;
+}
+.lesson-four-task-twenty:invalid {
+    background-color: red;
+}
