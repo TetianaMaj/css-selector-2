@@ -1,69 +1,69 @@
-.lesson-four-task-one:link {
+.lesson-four-task-one .btn:hover {
     color: red;
     background-color: yellow;
 }
-.title:hover {
+.lesson-four-task-two .title:hover {
     background-color: green;
 }
-.link:visited {
+.lesson-four-task-three a.link:visited {
     color: yellow;
 }
-.link:link {
+.lesson-four-task-four #sidebar a.link:link {
     color: red;
 }
-.btn:active {
+.lesson-four-task-five .btn:active {
     background-color: blue;
 }
-.btn:focus {
+.lesson-four-task-six .btn:focus {
     color: orange;
     background-color: orange;
 }
-#target:target {
+.lesson-four-task-seven #target:target {
     color: white;
     background-color: green;
 }
-#target:checked {
+.lesson-four-task-eight #target:checked {
     color: white;
     background-color: blue;
 }
-p:lang(uk) {
+.lesson-four-task-nine p:lang(uk) {
 color: blue;
 }
-.form-group:enabled {
+.form-group input:enabled {
     color: red;
     background-color: yellow;
 }
-.lesson-four-task-eleven:disabled {
+input:disabled {
     background-color: yellow;
 }
-.lesson-four-task-twelve:read-write {
+input:read-write {
     background-color: yellow;
 }
 .lesson-four-task-thirteen:read-only {
     background-color: yellow;
 }
-.lesson-four-task-fourteen:valid {
+div>input:valid {
     color: green;
 }
-.lesson-four-task-fourteen:invalid {
+div>input:invalid {
     color: red;
 }
-.lesson-four-task-fifteen:optional {
+input:optional {
     background-color: red;
 }
-.lesson-four-task-sixteen:out-of-range {
+input:out-of-range {
     color: red;
 }
-.lesson-four-task-seventeen:in-range {
+input:in-range {
     color: red;
 }
-.lesson-four-task-eighteen:placeholder-shown {
+div>input:placeholder-shown {
     color: red;
 }
-.btn-group:focus-within {
+.lesson-four-task-nineteen.btn-group:focus-within {
     color: white;
     background-color: yellow;
 }
-.lesson-four-task-twenty:invalid {
+input:invalid {
     background-color: red;
 }
