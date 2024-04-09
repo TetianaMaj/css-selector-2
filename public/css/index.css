@@ -2,7 +2,7 @@
     color: red;
     background-color: yellow;
 }
-.lesson-four-task-two .title:hover {
+.link:hover~.title {
     background-color: green;
 }
 .lesson-four-task-three a.link:visited {
@@ -22,7 +22,7 @@
     color: white;
     background-color: green;
 }
-.lesson-four-task-eight #target:checked {
+#checkbox:checked~#target {
     color: white;
     background-color: blue;
 }
@@ -51,16 +51,16 @@ div>input:invalid {
 input:optional {
     background-color: red;
 }
-input:out-of-range {
+.lesson-four-task-sixteen input:out-of-range {
     color: red;
 }
-input:in-range {
+.lesson-four-task-seventeen input:in-range {
     color: red;
 }
 div>input:placeholder-shown {
     color: red;
 }
-.lesson-four-task-nineteen.btn-group:focus-within {
+.btn-group button:focus-within {
     color: white;
     background-color: yellow;
 }
